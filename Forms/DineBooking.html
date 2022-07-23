@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine Booking</title>
+</head>
+<body>
+    <center>
+    <form action="#">
+        <h3>Dine Booking</h3>
+        <label>Visitor Name : </label>
+        <input type="text" required maxlength="20" >
+        <br>
+        <label>Number of members</label>
+        <input type="number" required min="1" max="99">
+        <br>
+        <label>contact number</label>
+        <input type="tel" required  pattern="\d{10}">
+        <br>
+        <label>email</label>
+        <input required type="email">
+        <br>
+        <label>types of food</label>
+        <input type="checkbox" name="chechbox" checked required><label>South Indian</label>
+        <input type="checkbox" name="chechbox" ><label>Northern Indian</label>
+        <input type="checkbox" name="chechbox" ><label>Western</label>
+        <input type="checkbox" name="chechbox" ><label>Chinese</label>
+
+        <br>
+        <label>room status</label>
+        <input type="radio"  required name="room status" checked value="Ac" ><label>Ac</label>
+        <input type="radio" required  name="room status" value="Non-Ac" ><label>Non-Ac</label>
+        <br>
+        <label>Venue Preference</label>
+        <select  required>
+            <option value="">Select</option>
+            <option value="Arena">Arena</option>
+            <option value="Fiesta" >Fiesta</option>
+            <option value="Vista">Vista</option>
+            <option value="Mythri">Mythri</option>
+            <option value="Magna">Magna</option>
+            <option value="Oasis">Magna</option>
+            <option value="Amoeba" disabled>Amoeba</option>
+        </select>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    </center>
+</body>
+</html>

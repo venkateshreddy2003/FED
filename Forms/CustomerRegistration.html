@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Registration</title>
+</head>
+<body>
+    <form style="padding-left:500px;" action="#">
+        <h3>Customer Registration</h3>
+        <label>UseerName : </label>
+        <input type="text" required maxlength="15" pattern="[A-Za-z]+">
+        <br>
+        <br>
+        <label>Password</label>
+        <input type="password" required  pattern="^[0-9][A-Za-z0-9]*[0-9]$" minlength="8" maxlength="15">
+        <br>
+        <br>
+        <label>Email</label>
+        <input type="email" required  size="40">
+        <br>
+        <br>
+        <label>Gender</label>
+        <input type="radio"  required name="gender" value="Male" ><label>Male</label>
+        <input type="radio" required  name="gender" value="Female" ><label>Female</label>
+        <input type="radio" required  name="gender" value="other" ><label>other</label>
+        <br>
+        <br>
+        <label>Age </label>
+        <input  required type="number" min="12" max="60">
+        <br>
+        <br>
+        <label>Address</label>
+        <br>
+        <textarea rows="4" cols="20"  required >
+           
+        </textarea>
+        <br>
+        <br>
+        <label>company's website</label>
+        <input required  type="url">
+        <br>
+        <br>
+        <label>country name</label>
+        <select  required>
+            <option value="India">India</option>
+            <option value="China">China</option>
+            <option value="America">America</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br>
+        <br>
+        <label>date of joining</label>
+        <input required  type="date">
+        <br>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

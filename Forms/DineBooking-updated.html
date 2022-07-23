@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dine Booking updated</title>
+</head>
+<body>
+    <center>
+    <h3>Dine Booking</h3>
+    <form action="#">
+    <table>
+        <tr>
+            <td>
+                <label>Visitor Name : </label>
+            </td>
+            <td>
+                <input type="text" required maxlength="20" >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Number of members</label>
+            </td>
+            <td>
+                <input type="number" required min="1" max="99">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>contact number</label>
+            </td>
+            <td>
+                <input type="tel" required  pattern="\d{10}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>email</label>
+            </td>
+            <td>
+                <input required type="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>types of food</label>
+            </td>
+            <td>
+                <input type="checkbox" name="chechbox" checked required><label>South Indian</label>
+                <input type="checkbox" name="chechbox" ><label>Northern Indian</label>
+                <input type="checkbox" name="chechbox" ><label>Western</label>
+                <input type="checkbox" name="chechbox" ><label>Chinese</label>        
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>room status</label>
+            </td>
+            <td>
+                <input type="radio"  required name="room status" checked value="Ac" ><label>Ac</label>
+                <input type="radio" required  name="room status" value="Non-Ac" ><label>Non-Ac</label>        
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Venue Preference</label>
+            </td>
+            <td>
+                <select  required>
+                    <option value="">Select</option>
+                    <option value="Arena">Arena</option>
+                    <option value="Fiesta" >Fiesta</option>
+                    <option value="Vista">Vista</option>
+                    <option value="Mythri">Mythri</option>
+                    <option value="Magna">Magna</option>
+                    <option value="Oasis">Magna</option>
+                    <option value="Amoeba" disabled>Amoeba</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Book">
+            </td>
+            <td>
+                <input type="reset">
+            </td>
+        </tr>
+    </table>
+    </form>
+</center>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
+}
+.div1{
+    border: 15px solid darkblue;
+    border-radius: 25px;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 30px;
+    padding-left:10px;
+}
+body{
+    color: darkblue;
+}

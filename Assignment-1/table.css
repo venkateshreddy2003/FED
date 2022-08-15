@@ -1,0 +1,12 @@
+.bordering{
+    border: 1px inset;
+    text-align: center;
+}
+table{
+    border: 2px;
+    border-style: outset;
+}
+/* }
+tr,td{
+    border-style: inset;
+} */
